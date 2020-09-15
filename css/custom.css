@@ -20,3 +20,13 @@ body {
 .forcefullwidth_wrapper_tp_banner {
 	max-height: 700px!important;
 }
+.tp-mask-wrap > .tp-caption.tp-shape.tp-shapewrapper {
+	background: rgba(0, 0, 0, 0.15)!important;
+}
+.tp-parallax-wrap span {
+	text-shadow: 1px 1px 15px black,
+	-1px -1px 15px black;
+}
+.tp-parallax-wrap a span {
+	text-shadow: unset;
+}
