@@ -11,5 +11,12 @@ body {
 	/* min-width: calc(100vw + 30px)!important; */
 	/* left: 15px!important; */
 	/* position: relative; */
-	color: rgb(0, 153, 255)
+}
+
+.text-red {
+	color: #EE3131;
+}
+
+.forcefullwidth_wrapper_tp_banner {
+	max-height: 700px!important;
 }
