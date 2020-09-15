@@ -1,0 +1,245 @@
+ body{
+     background-color: #fff;
+ }
+ .header_ul{
+     width: 100%;
+ }
+ .header_ul_btn{
+    
+     
+float: right;
+margin-left: 20px !important;
+ }
+ .header_ul_btn a{
+    
+    margin-top: 15px;
+ }
+ #hamburger{
+     
+    margin-left: 80%;
+ }
+
+ .header_ul_btn_mobile{
+    
+     display: none;
+ }
+ @media(max-width:991px){
+
+    .header_ul_btn_mobile{
+        
+        display: block;
+        float: left;
+        margin-top: 15px;
+        padding-left: 5px;
+   
+    }
+ }
+ @media(min-width:768px){
+    .ls a.logo {
+        float: left;
+    }
+    .top-social {
+        margin-top: 25px;
+    }
+ }
+
+ .pull-right,.quote-now3 {
+margin-top: 10px;
+ }
+
+
+
+ @media(min-width:992px){
+    .ls a.logo {
+        float: left;
+    }
+    .top-social {
+        margin-top: 80px;
+        margin-right: 10px;
+    }
+    .pull-right, .quote-now3 {
+    margin-top: 82px;
+    
+}
+    .benj {
+
+        max-width:223px;
+     }
+     .fullhead {
+         width:75%;
+         float:right !important;
+     }
+ }
+ 
+
+
+
+ .quote-now3 a {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #e03726;
+    padding: 5px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #26ace2;
+    font-size: 25px;
+}
+
+.top-social {
+    float: right;
+}
+
+.top-social a {
+    color: #26ace2;
+}
+
+.top-social li i {
+    padding: 0.7em 0.8em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e11631;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.top-social li .hvr-sweep-to-right {
+    border: 1px solid #26ace2;
+    border-left: 4px solid #e03726;
+}
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.top-search-div {
+    margin-top: 7px;
+}
+.top-social ul {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.top-social li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+.pull-right {
+    float: right!important;
+}
+.sf-menu a {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.theme_button.color1 {
+	padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pad-naor {
+	padding-top:0px !important;
+}
+
+
+/*
+ @media(max-width:992px){
+.theme_button.color1 {
+    bottom: -561px !important;
+}
+ }*/
+ 
+ .henapt {
+	 bottom:0px;
+	 position: fixed;
+    text-decoration: none;
+    z-index: 9999;
+ }
+ @media(min-width:992px){
+ .hidehen {
+	 display:none;
+ }
+ #desktop_appointment{
+    display: hidden;
+}
+ }
+
+body .text_section{
+
+    text-align: center;
+}
+ .text_section{
+     background-color: #fafafa !important;
+
+ }
+ .spacer{
+    background-color: #fafafa !important;
+     width: 100%;
+     height: 50px;
+ }
+ .black_spacer{
+   
+     width: 100%;
+     height: 80px;
+     background-color:#333;
+    
+ }
+ 
+ @media(min-width:769px){
+     #home_services{
+         margin-left: 150px;
+ }
+
+ .bold{
+     font-size: 16px;
+     font-weight: 900;
+     color: black;
+ }
+}
+@media(max-width:992px){
+    #desktop_appointment{
+        display: none;
+    }
+}
+
+.marg_top{
+    margin-top: 100px;
+}
+ 
